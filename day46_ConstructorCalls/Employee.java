@@ -21,20 +21,27 @@ public class Employee {
     double salary;
 
     public  Employee (String name){
-        this.name=name;
+        this.name=name;//sets the name
     }
 
     public Employee(String name, String jobTitle){
-        this(name);
-        this.jobTitle=jobTitle;
+        this(name); //calling previous constructor. MUST be in a first lane
+        this.jobTitle=jobTitle; //sets the jobTitle
     }
     public  Employee(String name,String jobTitle, int ID){
-        this(name,jobTitle);
-        this.ID=ID;
+        this(name,jobTitle); //calling previous constructor. MUST be in a first lane
+        this.ID=ID; //sets the jobTitle
     }
     public Employee(String name, String jobTitle, int ID, double salary){
-        this(name,jobTitle, ID);
-        this.salary=salary;
+        this(name,jobTitle, ID); //calling previous constructor. MUST be in a first lane
+        this.salary=salary; //sets the jobTitle
     }
+    public String toString() {
+        return "Name: " + name +
+                "\nJob Title: " + jobTitle +
+                "\nID: " + ID+
+                "\nSalary: " + salary;
+    }
+
 
 }
