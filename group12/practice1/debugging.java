@@ -8,7 +8,8 @@ public class debugging {
     public static void main(String[] args) {
 
         ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(1,2,3));
-        System.out.println(findAverage(arr));
+        double avg = findAverage(arr);
+        System.out.println(avg);
 
     }
 
