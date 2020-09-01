@@ -16,4 +16,8 @@ public class Paycheck {
 
 
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> b02136a... any message

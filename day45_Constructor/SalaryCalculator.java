@@ -4,7 +4,9 @@ package day45_Constructor;
 2. Create class called SalaryCalculator
                 instance variables:
                     hourlyRate, weeklyHours, stateTaxRate, fedralTaxRate
+
                 add a constructor can initialize those fields
+
                 instance methods:
                     salary(): returns the total salary as double  (hourlyRate * weeklyHours * 48)
                     stateTax(): retuns the total state tax as double ( salary * stateTaxRate)

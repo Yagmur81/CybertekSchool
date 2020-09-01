@@ -1,6 +1,8 @@
 package day46_ConstructorCalls;
 
 
+import day45_Constructor.Constructor;
+
 public class ConstructorCalls2 {
 
     public ConstructorCalls2(){
@@ -8,7 +10,7 @@ public class ConstructorCalls2 {
     }
 
     public ConstructorCalls2(int a){  // AB
-        // ConstructorCalls2();
+       // ConstructorCalls2();
         this(); // calling default constructor    A
         System.out.println("B"); // B
 
@@ -24,6 +26,11 @@ public class ConstructorCalls2 {
     public ConstructorCalls2(char a){
         this();  // A
         System.out.println("D");  // D
+    }
+
+    public ConstructorCalls2(double a){
+        System.out.println("E");
+        //this(10);
     }
 
 

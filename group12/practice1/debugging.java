@@ -16,7 +16,7 @@ public class debugging {
     private static  int findAverage(ArrayList<Integer>arr) {
         int average =0;
         for(Integer each:arr){
-            average+=each;
+            average+=each/arr.size();
         }
         return average;
     }

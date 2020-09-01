@@ -4,7 +4,9 @@ package day45_Constructor;
 1. create a class called Item
                 instance variables:
                     name, unitPrice, quantity
+
                 add a constructor that can initialize the fields
+
                 instance methods:
                     calcCost(): returns the total cost as double
                                 hint: quantity * unitPrice

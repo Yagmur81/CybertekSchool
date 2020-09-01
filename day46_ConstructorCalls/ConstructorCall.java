@@ -10,9 +10,9 @@ public class ConstructorCall {
 
 
     public static void method1(){
-        method2();
+            method2();
 
-        // ConstructorCall();
+     // ConstructorCall();
     }
 
     public static void method2(){
@@ -20,8 +20,8 @@ public class ConstructorCall {
     }
 
     public void method3(){
-        // ConstructorCall();
-        // this();
+       // ConstructorCall();
+       // this();
     }
 
 }

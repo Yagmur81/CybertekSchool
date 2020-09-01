@@ -4,6 +4,7 @@ package day46_ConstructorCalls;
 2. class name: Car
 			instance variables:
 					brand, model, year, price, color
+
 			1st constructor: initialize the brand of the car
 			2nd constructor: initialize the brand and model of the car
 							(MUST apply constructor Call)
@@ -13,6 +14,7 @@ package day46_ConstructorCalls;
 							(MUST apply constructor Call)
 			5th Constructor: initialize all isntances of the car
 							(MUST apply constructor Call)
+
 			Instance methods:
 				toString()
  */
@@ -31,7 +33,7 @@ public class Car {
 
     public Car(String brand, String model){
         this(brand);
-        //  this(brand, model, "Red");
+     //  this(brand, model, "Red");
         this.model = model;
     }
 
